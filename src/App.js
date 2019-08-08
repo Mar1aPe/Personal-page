@@ -1,11 +1,12 @@
 import React from 'react';
-import './App.css';
+import './styles/App.scss';
 import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
 
-const Main = () => <h1>o mnie</h1>
+const Home = () => <h1>home</h1>
 const About = () => <h1>o mnie</h1>
-const Stack = () => <h1>o mnie</h1>
-const Contact = () => <h1>o mnie</h1>
+const Stack = () => <h1>stack</h1>
+const Projects = () => <h1>projekty</h1>
+const Contact = () => <h1>kontakt</h1>
 
 function App() {
   return (
@@ -32,9 +33,13 @@ function App() {
          </li>
        </ul>
      </nav>
+     <section>
+     <Route path='/' exact component={Home}/>
      <Route path='/about' component={About}/>
-
-     
+     <Route path='/stack' component={Stack}/>
+     <Route path='/projects' component={Projects}/>
+     <Route path='/contact' component={Contact}/>
+     </section>
     </div>
     </Router>
   );
