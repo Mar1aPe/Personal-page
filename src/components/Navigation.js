@@ -1,15 +1,13 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-const Home = () => {
+
+const Navigation = () => {
     return ( 
-        <div>
-        <section className="language">flaga flaga</section>
-    <section className="content">Maria Patelska
-    PORTFOLIO
-    </section>
-    
-    <nav>
+        <nav>
     <ul>
+    <li>
+        <Link to='/'>Home</Link>
+      </li>
       <li>
         <Link to='about'>O mnie</Link>
       </li>
@@ -24,8 +22,7 @@ const Home = () => {
       </li>
     </ul>
   </nav>
-  </div>
      );
 }
  
-export default Home;
+export default Navigation;

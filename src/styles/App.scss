@@ -4,5 +4,36 @@
 @import 'home';
 @import 'stack';
 @import 'projects';
+@import 'navigation';
 
+body {
+    background: #000;
+}
+
+
+.mainPage {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+&::before {
+    background: url("https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Music-PNG/Gramophone_Vinyl_LP_Record_PNG_Transparent_Clip_Art_Image.png?m=1463021701")
+    no-repeat center center;
+ background-size: cover;
+ content: "";
+ width: 100vw;
+ height: 100vh;
+ position: absolute;
+ animation: spin 70s linear infinite;
+}
+
+@keyframes spin {
+ 0% {
+    transform: rotate(0deg);
+ }
+ 100% {
+    transform: rotate(360deg);
+ }
+}
+}
 

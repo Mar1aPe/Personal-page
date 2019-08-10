@@ -1,9 +1,12 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const About = () => {
     return ( 
+        <div>
+        <Navigation/>
       <h1>ohhhhhhhhhhh mnie</h1>
-
+</div>
      );
 }
  
