@@ -2,11 +2,11 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 const Home = () => {
     return ( 
-        <div>
-        <section className="language">flaga flaga</section>
-    <section className="content">Maria Patelska
-    PORTFOLIO
-    </section>
+        <div className='home'>
+        <h1>Maria Patelska</h1>
+    <h2>Portfolio</h2>
+   
+    
     
     <nav>
     <ul>

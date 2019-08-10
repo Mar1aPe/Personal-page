@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Gruppo|Space+Mono&display=swap');
 @import "variables";
 @import 'reset';
 @import 'about';
@@ -12,19 +13,22 @@ body {
 
 
 .mainPage {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: relative;
-    overflow: hidden;
+    
 &::before {
-    background: url("https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Music-PNG/Gramophone_Vinyl_LP_Record_PNG_Transparent_Clip_Art_Image.png?m=1463021701")
+    background: url('../images/sky.jpg')
     no-repeat center center;
  background-size: cover;
  content: "";
- width: 100vw;
- height: 100vh;
+ width: 200%;
+ height: 250%;
  position: absolute;
- animation: spin 70s linear infinite;
+ animation: spin 400s linear infinite;
+ z-index: -1;
+ top: -50%;
+left: -50%;
 }
 
 @keyframes spin {

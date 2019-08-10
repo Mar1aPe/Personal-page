@@ -1,8 +1,17 @@
-.language {
-    font: {
-        family: $font;
-        size: 40px;
-    }
+.home { 
+font-family: arial;
     color: $textColor;
     
+    h1{
+        font: {
+            family: $h1font;
+        }
+    }
+    
+    h2 {
+        
+            font-family: 'Amatic SC', cursive;
+        
+    }
 }
+
