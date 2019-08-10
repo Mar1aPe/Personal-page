@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AEJH,AAAA,SAAS,CAAC;EAEF,WAAM,EHFP,MAAM;EGGL,SAAI,EAAE,IAAI;CAEjB",
+    "sources": [
+        "app.scss",
+        "_variables.scss",
+        "_reset.scss",
+        "_about.scss",
+        "_home.scss",
+        "_stack.scss",
+        "_projects.scss"
+    ],
+    "names": [],
+    "file": "app.css"
+}
