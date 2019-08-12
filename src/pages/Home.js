@@ -4,23 +4,23 @@ const Home = () => {
     return ( 
         <div className='home'>
         <h1>Maria Patelska</h1>
-    <h2>Portfolio</h2>
+        <h2>Portfolio</h2>
    
     
     
     <nav>
     <ul>
       <li>
-        <Link to='about'>O mnie</Link>
+        <Link to='about'>About me</Link>
       </li>
       <li>
-        <Link to='/stack'>Stack</Link>
+        <Link to='/stack'>Technology Stack</Link>
       </li>
       <li>
-        <Link to='/projects'>Projekty</Link>
+        <Link to='/projects'>Projects</Link>
       </li>
       <li>
-        <Link to='/contact'>Kontakt</Link>
+        <Link to='/contact'>Contact</Link>
       </li>
     </ul>
   </nav>

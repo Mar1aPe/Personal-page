@@ -1,17 +1,93 @@
 .home { 
 font-family: arial;
     color: $textColor;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+    
     
     h1{
         font: {
-            family: $h1font;
+            family: 'Amatic SC', cursive;
+            size: 50px;
+
         }
+        text: {
+         
+            align: center;
+        
+            }
+            letter-spacing: 6px;
+
+            @media screen and (max-width: $phoneScreen){
+                font-size: 35px;
+            }
+        
+        
     }
     
     h2 {
         
-            font-family: 'Amatic SC', cursive;
+            font: { 
+                size: 40px;
+                family: 'Amatic SC', cursive;
+                
+            }
+            @media screen and (max-width: $phoneScreen){
+                font-size: 25px;
+            }
+            letter-spacing: 7px;
+            text-align: center;
+            margin-bottom: 10px;
+    }
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    
         
+
+        li{
+            flex-grow: 1;
+            margin: 10px 10px;
+            overflow: visible;
+           
+
+            a{
+        color: $textColor;
+        text: {
+            decoration: none;
+            align: center;
+
+        }
+        
+        display: block;
+        padding: 15px 20px;
+        margin: 10px ;
+        
+        
+
+        font: {
+            family :'Amatic SC', cursive;
+            size: 30px;
+            
+        }
+        &:hover {
+            font-size: 35px;
+            text-shadow: 1px 1px 2px;
+            
+        }
+        @media screen and (max-width: $phoneScreen){
+            font-size: 20px;
+        }
+    }
+    }
+
     }
 }
 
