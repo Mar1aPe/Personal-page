@@ -1,12 +1,20 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
+import {Animated} from "react-animated-css";
+
+
 const Home = () => {
     return ( 
         <div className='home'>
+        <Animated animationIn='fadeIn' animationInDuration='3000'>
         <h1>Maria Patelska</h1>
+        </Animated>
+        <Animated animationIn='fadeIn' animationInDuration='4000'>
         <h2>Portfolio</h2>
+        </Animated>
+        
    
-    
+  
     
     <nav>
     <ul>
