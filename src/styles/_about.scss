@@ -1,0 +1,33 @@
+.about {
+    font-family: arial;
+    color: $textColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+
+
+
+    h1 {
+        font: {
+            family: 'Amatic SC', cursive;
+            size: 50px;
+
+        }
+
+        text: {
+
+            align: center;
+
+        }
+
+        letter-spacing: 6px;
+
+        @media screen and (max-width: $phoneScreen) {
+            font-size: 35px;
+        }
+    }
+    
+}

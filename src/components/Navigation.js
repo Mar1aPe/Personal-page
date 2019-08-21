@@ -1,28 +1,50 @@
-import React from 'react';
-import {Link} from 'react-router-dom'
+import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
+import $ from 'jquery';
 
-const Navigation = () => {
-    return ( 
-        <nav>
+class Navigation extends Component {
+
+  componentDidMount(){
+   $(".cosmicNavi").click(function() {
+    $(this).toggleClass("active");
+    $(".burger").toggleClass("show");
+  });}
+
+    render() {
+return(
+    
+      <div className='cosmicNavi'>
+      <div id="container">
+  <div id="burger">
+          <div class="bun top"></div>
+          <div class="filling"></div>
+          <div class="bun bottom"></div>
+  </div>
+</div>
+
+        <nav className='burger'>
     <ul>
     <li>
-        <Link to='/'>Home</Link>
+        <Link exact to='/'>Home</Link>
       </li>
-      <li>
-        <Link to='about'>O mnie</Link>
+      <li className='green'>
+        <Link to='/about' >About me</Link>
       </li>
-      <li>
-        <Link to='/stack'>Stack</Link>
+      <li className='red'>
+        <Link to='/stack' >Stack</Link>
       </li>
-      <li>
-        <Link to='/projects'>Projekty</Link>
+      <li className='yellow'>
+        <Link to='/projects' >Projects</Link>
       </li>
-      <li>
-        <Link to='/contact'>Kontakt</Link>
+      <li className='purple'>
+        <Link to='/contact' >Contact</Link>
       </li>
     </ul>
   </nav>
+
+ 
+  </div>
      );
-}
+}}
  
 export default Navigation;

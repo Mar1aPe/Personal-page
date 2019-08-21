@@ -9,7 +9,7 @@ const Home = () => {
         <Animated animationIn='fadeIn' animationInDuration='3000'>
         <h1>Maria Patelska</h1>
         </Animated>
-        <Animated animationIn='fadeIn' animationInDuration='4000'>
+        <Animated animationIn='fadeIn' animationInDelay='500' animationInDuration='6000'>
         <h2>Portfolio</h2>
         </Animated>
         
@@ -19,7 +19,7 @@ const Home = () => {
     <nav>
     <ul>
       <li>
-        <Link to='about'>About me</Link>
+        <Link to='/about'>About me</Link>
       </li>
       <li>
         <Link to='/stack'>Technology Stack</Link>
