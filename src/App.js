@@ -1,18 +1,20 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './styles/app.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import About from './pages/About'
 import Home from './pages/Home'
 import Projects from './pages/Projects';
 import Stack from './pages/Stack';
-import Contact from './pages/Stack';
+import Contact from './pages/Contact';
 import './components/loader';
 
 
 
-function App() {
+class App extends Component {
+  render(){
   return (
     <Router>
+
     <div className='mainPage'>
     
      <Route path='/' exact component={Home}/>
@@ -23,7 +25,10 @@ function App() {
      
     </div>
     </Router>
+
+    
+
   );
-}
+}}
 
 export default App;

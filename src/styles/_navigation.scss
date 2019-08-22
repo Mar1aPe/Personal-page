@@ -3,6 +3,8 @@ $icon-size:70px;
 $w: 100px;
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+  
+
 @mixin lightsaber($color){
   background:mix($color,#fff,10%);
   box-shadow:$color 0px 0px 0px 2px;
@@ -122,6 +124,7 @@ nav {
     transform:translatex(0%);
   }
   font-family:Open Sans;
+  background-color: black;
   color:white;
   position:absolute;
   transform:translatex(-100%);

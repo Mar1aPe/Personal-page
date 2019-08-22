@@ -6,15 +6,16 @@ import {Animated} from "react-animated-css";
 const Home = () => {
     return ( 
         <div className='home'>
+        <div className="name"> 
         <Animated animationIn='fadeIn' animationInDuration='3000'>
         <h1>Maria Patelska</h1>
         </Animated>
         <Animated animationIn='fadeIn' animationInDelay='500' animationInDuration='6000'>
-        <h2>Portfolio</h2>
+        <h2>Front-End Developer</h2>
         </Animated>
-        
+        </div>
    
-  
+  <div className="links"> 
     
     <nav>
     <ul>
@@ -32,6 +33,7 @@ const Home = () => {
       </li>
     </ul>
   </nav>
+  </div>
   </div>
      );
 }

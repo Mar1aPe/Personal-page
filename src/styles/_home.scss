@@ -2,11 +2,29 @@
     font-family: arial;
     color: $textColor;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     flex-wrap: wrap;
     height: 100vh;
+    overflow-x: scroll;
+    
+    
+   .name{
+    
+    width: 100%;
+    // margin-top: 20%;
+    
+    
+    
+   }
+
+   .links{
+ 
+       width: 100%;
+       margin-top: 0px;
+   }
+   
 
 
 
@@ -16,12 +34,16 @@
             size: 50px;
 
         }
+       
 
         text: {
 
             align: center;
 
         }
+        margin: 20% 0 5% 0;
+        
+        
 
         letter-spacing: 6px;
 
@@ -41,12 +63,12 @@
         }
 
         @media screen and (max-width: $phoneScreen) {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         letter-spacing: 7px;
         text-align: center;
-        margin-bottom: 10px;
+        margin: 20px 0px;
     }
 
     ul {
