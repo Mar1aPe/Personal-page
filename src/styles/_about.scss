@@ -1,16 +1,24 @@
+.testNavDiv {
 
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
 
 .about {
     font-family: arial;
     color: $textColor;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
     height: 100vh;
-    
+    // overflow-y: scroll;
+    // overflow-y: auto;
+    margin-top: 15vh;
+
+
 
     h1 {
+
         font: {
             family: 'Amatic SC', cursive;
             size: 50px;
@@ -24,11 +32,33 @@
         }
 
         letter-spacing: 6px;
-        margin-top: 30%;
+        margin-top: 10vh;
+        width: 100%;
+
 
         @media screen and (max-width: $phoneScreen) {
             font-size: 35px;
         }
     }
-    
+
+    p {
+        margin: {
+            left: 20px;
+            top: 40px;
+        }
+
+        text-shadow: 3px 3px 9px black;
+
+
+
+        font: {
+            family: 'Amatic SC', cursive;
+            size: 30px;
+        }
+
+        @media screen and (max-width: $phoneScreen) {
+            font-size: 20px;
+        }
+    }
+
 }

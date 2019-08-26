@@ -11,9 +11,7 @@ body {
   overflow: hidden;
 }
 
-.about {
-  font-family: arial;
-  color: white;
+.testNavDiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,12 +19,15 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.about {
+  font-family: arial;
+  color: white;
   height: 100vh;
+  margin-top: 15vh;
 }
 
 .about h1 {
@@ -34,12 +35,27 @@ body {
   font-size: 50px;
   text-align: center;
   letter-spacing: 6px;
-  margin-top: 30%;
+  margin-top: 10vh;
+  width: 100%;
 }
 
 @media screen and (max-width: 320px) {
   .about h1 {
     font-size: 35px;
+  }
+}
+
+.about p {
+  margin-left: 20px;
+  margin-top: 40px;
+  text-shadow: 3px 3px 9px black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .about p {
+    font-size: 20px;
   }
 }
 
@@ -59,7 +75,6 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 100vh;
-  overflow-x: scroll;
 }
 
 .home .name {
@@ -141,6 +156,9 @@ body {
 }
 
 .cosmicNavi {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .cosmicNavi #container {
@@ -459,6 +477,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 .mainPage::before {
