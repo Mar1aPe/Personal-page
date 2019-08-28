@@ -9,6 +9,7 @@
 
 body {
     background: #000;
+
 }
 
 
@@ -16,7 +17,8 @@ body {
     width: 100vw;
     height: 100vh;
     position: relative;
-    overflow-x: hidden;
+    // overflow-x: hidden;
+    overflow: hidden;
 
     &::before {
         background: url('../images/sky.jpg') no-repeat center center;

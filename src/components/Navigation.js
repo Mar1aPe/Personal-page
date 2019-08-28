@@ -38,7 +38,7 @@ class Navigation extends Component {
               <Link to='/projects' >Projects</Link>
             </li>
             <li className='purple'>
-              <Link to='/contact' >Contact</Link>
+              <Link to='/contact'>Contact</Link>
             </li>
           </ul>
         </nav>

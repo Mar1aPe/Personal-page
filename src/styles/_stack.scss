@@ -1,17 +1,38 @@
 .iconsDiv {
-
+    display: flex;
     flex-grow: 1;
-    height: 100vh;
+    height: auto;
     margin-top: 15vh;
-    background: black;
-    margin-top: 50px;
     width: 100vw;
+    justify-content: center;
 
+
+
+    span {
+        display: inline-flex;
+        flex-direction: row;
+
+    }
 
     i {
         font-size: 100px;
-        display: inline-flex;
-        flex-direction: row;
         padding: 0.5em;
+
+
     }
+
+    h3 {
+        font: {
+            family: 'Amatic SC', cursive;
+            size: 40px;
+
+        }
+
+        text: {
+
+            align: center;
+
+        }
+    }
+
 }

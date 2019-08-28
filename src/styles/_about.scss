@@ -10,9 +10,10 @@
 .about {
     font-family: arial;
     color: $textColor;
-    height: 100vh;
+    height: 80vh;
     margin-top: 15vh;
-
+    margin-bottom: 5vh;
+    overflow-y: scroll;
 
 
     h1 {
@@ -46,12 +47,15 @@
         }
 
         text-shadow: 3px 3px 9px black;
+        letter-spacing: 2px;
+
 
 
 
         font: {
             family: 'Amatic SC', cursive;
             size: 30px;
+            weight: bold;
         }
 
         @media screen and (max-width: $phoneScreen) {
