@@ -1,0 +1,17 @@
+.iconsDiv {
+
+    flex-grow: 1;
+    height: 100vh;
+    margin-top: 15vh;
+    background: black;
+    margin-top: 50px;
+    width: 100vw;
+
+
+    i {
+        font-size: 100px;
+        display: inline-flex;
+        flex-direction: row;
+        padding: 0.5em;
+    }
+}

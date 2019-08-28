@@ -1,13 +1,47 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Navigation from '../components/Navigation';
+import { Animated } from "react-animated-css";
+import Fade from 'react-reveal/Fade';
 
-const Stack = () => {
-    return ( 
-        <div>
-        <Navigation/>
-            <h1>stack</h1>
-        </div>
-     );
+class Stack extends Component {
+    render() {
+
+        return (
+
+            <div className='testNavDiv'>
+
+                <Navigation />
+
+
+
+                <div className='about'>
+                    <Animated animationIn='fadeIn' animationInDuration={3000}>
+                        <h1>Technology Stack</h1>
+                    </Animated>
+                    <div className='iconsDiv'>
+                        {/* <Animated animationIn='zoomIn fadeIn' animationInDelay='1000' animationInDuration={3000} animateOnMount='false'> */}
+                        <Fade bottom>
+
+
+                            <i class="devicon-html5-plain-wordmark"></i>
+                            <i class="devicon-css3-plain-wordmark"></i>
+                            <i class="devicon-javascript-plain"></i>
+                            <i class="devicon-jquery-plain-wordmark"></i>
+                            <i class="devicon-sass-original"></i>
+                            <i class="devicon-react-original-wordmark"></i>
+                            <i class="devicon-git-plain-wordmark"></i>
+                        </Fade>
+
+                        {/* </Animated> */}
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        );
+    }
 }
- 
+
 export default Stack;
