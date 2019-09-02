@@ -1,0 +1,31 @@
+.contactSection {
+    @extend .iconsDiv;
+
+
+    span {
+        display: inline-block;
+        margin: 5px 5px;
+        text-align: center;
+
+        &:hover {
+            a {
+                visibility: visible;
+
+                &:hover {
+                    text-shadow: 8px 4px 10px rgb(196, 39, 125);
+                }
+            }
+        }
+    }
+
+
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        color: $textColor;
+        font-size: 20px;
+        visibility: hidden;
+    }
+
+}

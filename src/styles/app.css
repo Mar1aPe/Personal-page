@@ -162,7 +162,7 @@ body {
   }
 }
 
-.iconsDiv {
+.iconsDiv, .contactSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,7 +177,7 @@ body {
           justify-content: center;
 }
 
-.iconsDiv span {
+.iconsDiv span, .contactSection span {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -187,12 +187,12 @@ body {
           flex-direction: row;
 }
 
-.iconsDiv i {
+.iconsDiv i, .contactSection i {
   font-size: 100px;
   padding: 0.5em;
 }
 
-.iconsDiv h3 {
+.iconsDiv h3, .contactSection h3 {
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
   text-align: center;
@@ -510,6 +510,28 @@ body {
   to {
     Opacity: 1;
   }
+}
+
+.contactSection span {
+  display: inline-block;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+.contactSection span:hover a {
+  visibility: visible;
+}
+
+.contactSection span:hover a:hover {
+  text-shadow: 8px 4px 10px #c4277d;
+}
+
+.contactSection a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  visibility: hidden;
 }
 
 body {
