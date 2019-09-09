@@ -31,9 +31,11 @@ class Navigation extends Component {
             <li className='green'>
               <Link to='/about' >About me</Link>
             </li>
+
             <li className='red'>
               <Link to='/stack' >Stack</Link>
             </li>
+
             <li className='yellow'>
               <Link to='/projects' >Projects</Link>
             </li>

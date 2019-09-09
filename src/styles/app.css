@@ -52,10 +52,8 @@ body {
   margin-left: 20px;
   margin-top: 40px;
   text-shadow: 3px 3px 9px black;
-  letter-spacing: 2px;
-  font-family: 'Amatic SC', cursive;
-  font-size: 30px;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 320px) {
@@ -202,6 +200,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 .cosmicNavi #container {
