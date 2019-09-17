@@ -30,18 +30,18 @@ const Projects = () => {
                                     <br />
                                     MEME GENERATOR
                                     <br />
-                                    <a href="https://www.linkedin.com/in/maria-p-25a345187/" >Go to website</a>
+                                    <a href="https://mar1ape.github.io/Meme-Generator/" >Go to website</a>
                                     <br />
-                                    <a href="https://www.linkedin.com/in/maria-p-25a345187/" >Check the code</a>
+                                    <a href="https://github.com/Mar1aPe/Meme-Generator" >Check the code</a>
                                 </span>
                                 <span className='contactDiv'>
                                     <img src={tetris} alt="tetris" />
                                     <br />
                                     TETRIS
                                     <br />
-                                    <a href="https://www.linkedin.com/in/maria-p-25a345187/" >Go to website</a>
+                                    <a href="https://mar1ape.github.io/Tetris/" >Go to website</a>
                                     <br />
-                                    <a href="https://www.linkedin.com/in/maria-p-25a345187/" >Check the code</a>
+                                    <a href="https://github.com/Mar1aPe/Tetris" >Check the code</a>
 
                                 </span>
 

@@ -7,6 +7,7 @@
         margin: 5px 5px;
         text-align: center;
 
+
         &:hover {
             a {
                 visibility: visible;
@@ -26,6 +27,11 @@
         color: $textColor;
         font-size: 20px;
         visibility: hidden;
+    }
+
+    img {
+        height: 200px;
+        width: 200px;
     }
 
 }

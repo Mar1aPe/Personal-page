@@ -533,6 +533,11 @@ body {
   visibility: hidden;
 }
 
+.contactSection img {
+  height: 200px;
+  width: 200px;
+}
+
 body {
   background: #000;
 }
