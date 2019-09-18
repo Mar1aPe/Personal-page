@@ -63,4 +63,10 @@
         }
     }
 
+    ul {
+        @extend p;
+        list-style-type: square;
+        list-style-position: inside;
+    }
+
 }

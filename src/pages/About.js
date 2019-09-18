@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import { Animated } from "react-animated-css";
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
 
@@ -26,6 +27,24 @@ const About = () => {
             I started with frontend, but I'm definitely going into mobile application environment as well.<br />
             This won't be my first career switch, as I moved from being a Commodity Science (Chemistry Lab) Engineer to an Automation and Electronics Product Manager years ago, also after taking few years of education for that purpose, what I think, shows my flexibility and capability of setting my mind and efforts on completely new professional fields with a success.
           </p>
+
+          <Fade bottom>
+            <h1>Professional & Personal Skills</h1>
+            <ul className='skills'>
+              <li>Very good spoken and written English</li>
+              <li>Basic level of spoken and written German</li>
+              <li>Effective communication</li>
+              <li>Big-Picture Thinking</li>
+              <li>Teamwork</li>
+              <li>Open-mindedness</li>
+              <li>Patience</li>
+              <li>Problem solving</li>
+              <li>Adaptability</li>
+              <li>Willingness to learn</li>
+            </ul>
+          </Fade>
+
+
         </Animated>
       </div>
     </div>

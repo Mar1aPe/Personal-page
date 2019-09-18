@@ -48,7 +48,7 @@ body {
   }
 }
 
-.about p {
+.about p, .about ul {
   margin-left: 20px;
   margin-top: 40px;
   text-shadow: 3px 3px 9px black;
@@ -57,9 +57,14 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-  .about p {
+  .about p, .about ul {
     font-size: 20px;
   }
+}
+
+.about ul {
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 .home {

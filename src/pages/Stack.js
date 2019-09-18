@@ -49,7 +49,7 @@ const Stack = () => {
                             <span><i class="devicon-nodejs-plain-wordmark"></i></span>
                             <span><i class="devicon-mongodb-plain-wordmark"></i></span>
                             <span><i class="devicon-express-original-wordmark"></i></span>
-
+                            <span><i class="devicon-php-plain"></i></span>
 
                         </Fade>
 
