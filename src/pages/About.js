@@ -32,7 +32,6 @@ const About = () => {
             <h1>Professional & Personal Skills</h1>
             <ul className='skills'>
               <li>Very good spoken and written English</li>
-              <li>Basic level of spoken and written German</li>
               <li>Effective communication</li>
               <li>Big-Picture Thinking</li>
               <li>Teamwork</li>
