@@ -44,12 +44,12 @@ class Contact extends Component {
 
                                         <i class="fab fa-linkedin"></i>
                                         <br />
-                                        <a href="https://www.linkedin.com/in/maria-p-25a345187/" >Go to LinedIn</a>
+                                        <a href="https://www.linkedin.com/in/maria-p-25a345187/" target="_blank">Go to LinedIn</a>
                                     </span>
                                     <span className='contactDiv'>
                                         <i class="fab fa-github"></i>
                                         <br />
-                                        <a href="http://github.com/Mar1aPe">Go to GitHub</a>
+                                        <a href="http://github.com/Mar1aPe" target="_blank">Go to GitHub</a>
 
                                     </span>
 
