@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0d6ec7de.chunk.css",
+    "main.js": "/portfolio/static/js/main.69217317.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.69217317.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/js/2.d56e15df.chunk.js": "/portfolio/static/js/2.d56e15df.chunk.js",
+    "static/js/2.d56e15df.chunk.js.map": "/portfolio/static/js/2.d56e15df.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.e031ddd399f2cb7b414f5c29090a01f0.js": "/portfolio/precache-manifest.e031ddd399f2cb7b414f5c29090a01f0.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.0d6ec7de.chunk.css.map": "/portfolio/static/css/main.0d6ec7de.chunk.css.map",
+    "static/media/derpina.png": "/portfolio/static/media/derpina.17c434d6.png",
+    "static/media/app.css": "/portfolio/static/media/sky.27ce0367.jpg",
+    "static/media/tetris.png": "/portfolio/static/media/tetris.34f4e010.png"
+  }
+}
