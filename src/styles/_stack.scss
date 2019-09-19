@@ -20,6 +20,9 @@
         font-size: 100px;
         padding: 0.5em;
 
+        @media only screen and (max-width: 600px) {
+            font-size: 70px;
+        }
 
     }
 

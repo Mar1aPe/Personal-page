@@ -26,12 +26,34 @@
         cursor: pointer;
         color: $textColor;
         font-size: 20px;
+        margin: 10px o;
         visibility: hidden;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 15px;
+        }
     }
 
     img {
+
+
         height: 200px;
         width: 200px;
+        margin-bottom: 20px;
+
+        @media only screen and (max-width: 600px) {
+
+            height: 100px;
+            width: 100px;
+        }
     }
 
+    i {
+        font-size: 100px;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 70px;
+        }
+
+    }
 }

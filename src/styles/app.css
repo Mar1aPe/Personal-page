@@ -195,6 +195,12 @@ body {
   padding: 0.5em;
 }
 
+@media only screen and (max-width: 600px) {
+  .iconsDiv i, .contactSection i {
+    font-size: 70px;
+  }
+}
+
 .iconsDiv h3, .contactSection h3 {
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
@@ -535,12 +541,37 @@ body {
   cursor: pointer;
   color: white;
   font-size: 20px;
+  margin: 10px o;
   visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactSection a {
+    font-size: 15px;
+  }
 }
 
 .contactSection img {
   height: 200px;
   width: 200px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactSection img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.contactSection i {
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactSection i {
+    font-size: 70px;
+  }
 }
 
 body {

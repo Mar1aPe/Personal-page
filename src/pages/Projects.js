@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import Navigation from '../components/Navigation';
 import { Animated } from "react-animated-css";
