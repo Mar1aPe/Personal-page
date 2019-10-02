@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f757d1a75efe25f8d35495d7a1d12c16",
+    "revision": "6e769afbc7f31d4c1ecc26d9525ed0bc",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "47cf53e21e18f90f842a",
+    "revision": "0cefcaf25ea2d8748124",
     "url": "/portfolio/static/css/main.ba196eb7.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.d56e15df.chunk.js"
   },
   {
-    "revision": "47cf53e21e18f90f842a",
-    "url": "/portfolio/static/js/main.0b26193c.chunk.js"
+    "revision": "0cefcaf25ea2d8748124",
+    "url": "/portfolio/static/js/main.c6567697.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "17c434d632a93d8a06909ef1d1230113",
-    "url": "/portfolio/static/media/derpina.17c434d6.png"
+    "revision": "52b95e99c26f6d8a6cab4894ec9a6093",
+    "url": "/portfolio/static/media/memegeneimg.52b95e99.JPG"
   },
   {
     "revision": "27ce0367360bc1b224c78ba2cb9af45f",
