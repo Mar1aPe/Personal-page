@@ -3,7 +3,7 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import { Animated } from "react-animated-css";
 import Fade from 'react-reveal/Fade';
-import memeIcon from '../images/derpina.png';
+import memeIcon from '../images/memegeneimg.JPG';
 import tetris from '../images/tetris.png';
 
 const Projects = () => {
@@ -27,7 +27,7 @@ const Projects = () => {
                             <Fade bottom>
 
                                 <span className='contactDiv'>
-                                    <img src={memeIcon} alt="derpina" />
+                                    <img src={memeIcon} alt="memesite" />
                                     <br />
                                     MEME GENERATOR
                                     <br />
