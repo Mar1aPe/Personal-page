@@ -1,6 +1,6 @@
 # Personal Page
 
-Website live preview on [this GitHub Page](https://mar1ape.github.io/Business-Landing-Page/)
+Website live preview on [this GitHub Page](https://mar1ape.github.io/Personal-page/)
 
 ![Page preview](./src/images/pageView.JPG)
 
