@@ -5,6 +5,7 @@ import { Animated } from "react-animated-css";
 import Fade from 'react-reveal/Fade';
 import memeIcon from '../images/memegeneimg.JPG';
 import tetris from '../images/tetris.png';
+import bookstore from '../images/bookstore.JPG'
 
 const Projects = () => {
 
@@ -47,6 +48,15 @@ const Projects = () => {
                                     <br />
                                     <a href="https://github.com/Mar1aPe/Tetris" target="_blank">Check the code</a>
 
+                                </span>
+                                <span className='contactDiv'>
+                                    <img src={bookstore} alt="bookstore site" />
+                                    <br />
+                                    LANDING PAGE
+                                    <br />
+                                    <a href="https://mar1ape.github.io/Business-Landing-Page/" target="_blank" >Go to website</a>
+                                    <br />
+                                    <a href="https://github.com/Mar1aPe/Business-Landing-Page" target="_blank">Check the code</a>
                                 </span>
 
 
