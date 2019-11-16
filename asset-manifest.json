@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.28ba2fd6.chunk.css",
-    "main.js": "/portfolio/static/js/main.57cedde5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.57cedde5.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.d56e15df.chunk.js": "/portfolio/static/js/2.d56e15df.chunk.js",
-    "static/js/2.d56e15df.chunk.js.map": "/portfolio/static/js/2.d56e15df.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.af6bbcca56be74c85218868918567a83.js": "/portfolio/precache-manifest.af6bbcca56be74c85218868918567a83.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.28ba2fd6.chunk.css.map": "/portfolio/static/css/main.28ba2fd6.chunk.css.map",
-    "static/media/memegeneimg.JPG": "/portfolio/static/media/memegeneimg.52b95e99.JPG",
-    "static/media/app.css": "/portfolio/static/media/sky.27ce0367.jpg",
-    "static/media/tetris.png": "/portfolio/static/media/tetris.34f4e010.png"
+    "main.css": "/Personal-page/static/css/main.9d427695.chunk.css",
+    "main.js": "/Personal-page/static/js/main.6d8a9a96.chunk.js",
+    "main.js.map": "/Personal-page/static/js/main.6d8a9a96.chunk.js.map",
+    "runtime~main.js": "/Personal-page/static/js/runtime~main.a87be1db.js",
+    "runtime~main.js.map": "/Personal-page/static/js/runtime~main.a87be1db.js.map",
+    "static/js/2.7de5126f.chunk.js": "/Personal-page/static/js/2.7de5126f.chunk.js",
+    "static/js/2.7de5126f.chunk.js.map": "/Personal-page/static/js/2.7de5126f.chunk.js.map",
+    "index.html": "/Personal-page/index.html",
+    "precache-manifest.1debe487d957452d899d1c36802a7279.js": "/Personal-page/precache-manifest.1debe487d957452d899d1c36802a7279.js",
+    "service-worker.js": "/Personal-page/service-worker.js",
+    "static/css/main.9d427695.chunk.css.map": "/Personal-page/static/css/main.9d427695.chunk.css.map",
+    "static/media/bookstore.JPG": "/Personal-page/static/media/bookstore.15460a01.JPG",
+    "static/media/memegeneimg.JPG": "/Personal-page/static/media/memegeneimg.52b95e99.JPG",
+    "static/media/app.css": "/Personal-page/static/media/sky.27ce0367.jpg",
+    "static/media/tetris.png": "/Personal-page/static/media/tetris.34f4e010.png"
   }
 }
