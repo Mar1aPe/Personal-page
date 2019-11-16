@@ -18,12 +18,16 @@ const About = () => {
           <h1>About me</h1>
         </Animated>
         <Animated animationIn='fadeIn' animationInDelay={1000} animationInDuration={4000}>
-          <p>Hi, I'm Maria, I program in front-end technologies, I like React.js especially. <br />
-            I believe that everyday practice is the key to development, and programming possibilities are endless, which is why I like it so much.<br />
-            I graduated from University of Economics in Poznań with a Master's degree in the field of Commodity Science. <br />
-            Also, this year I am about to start postgraduate studies at the WSB in Poznań in the field of "Internet and mobile applications".<br />
-            I started with frontend, but I'm definitely going into mobile application environment as well.<br />
-            This won't be my first career switch, as I moved from being a Commodity Science (Chemistry Lab) Engineer to an Automation and Electronics Product Manager years ago, also after taking few years of education for that purpose, what I think, shows my flexibility and capability of setting my mind and efforts on completely new professional fields with a success.
+          <p>Hi, I'm Maria, an engineer by profession and a programmer by passion. <br />
+            Aspiring Front-End Developer diving into web technologies and
+            programming languages.
+            In the near future I would like to develop in writing mobile applications as
+well. <br /> I program in front-end technologies, I like React.js especially. <br />
+            I believe that everyday practice is the key to self-development, and programming possibilities are endless, which is why I like it so much.<br />
+            I graduated from University of Economics in Poznań with a Master's - Engineer degree in the field of Commodity Science but have been a Product Manager for last few years in the field of electromagnetic components. <br />
+            I find technical knowledge pleasant and accessible.
+Learning new programming languages and tools became an addicting and
+satisfying process for me.
           </p>
 
           <Fade bottom>

@@ -40,6 +40,16 @@
         }
     }
 
+    h5 {
+        @extend h1;
+        font-size: 35px;
+
+
+        @media screen and (max-width: $phoneScreen) {
+            font-size: 25px;
+        }
+    }
+
     p {
         margin: {
             left: 20px;

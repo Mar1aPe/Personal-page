@@ -1,3 +1,14 @@
+# Personal Page
+
+Website live preview on [this GitHub Page](https://mar1ape.github.io/Business-Landing-Page/)
+
+![Page preview](./src/images/pageView.JPG)
+
+
+HTML,CSS (Sass), JavaScript and React.js (including Router, Animated, Switch) were used for this project.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -29,27 +29,31 @@ const Stack = () => {
                                 <i class="devicon-css3-plain-wordmark"></i>
                             </span>
                             <span>
+                                <i class="devicon-sass-original"></i>
+                            </span>
+                            <span>
                                 <i class="devicon-javascript-plain"></i>
                             </span>
                             <span>
                                 <i class="devicon-jquery-plain-wordmark"></i>
                             </span>
-                            <span>
-                                <i class="devicon-sass-original"></i>
-                            </span>
+
                             <span>
                                 <i class="devicon-react-original-wordmark"></i>
+                            </span>
+                            <span>
+                                <i class="devicon-webpack-plain-wordmark"></i>
                             </span>
                             <span>
                                 <i class="devicon-git-plain-wordmark"></i>
                             </span>
 
-                            <h3>Learning...</h3>
+                            <h3>Learning currently during programming camp:</h3>
 
                             <span><i class="devicon-nodejs-plain-wordmark"></i></span>
                             <span><i class="devicon-mongodb-plain-wordmark"></i></span>
                             <span><i class="devicon-express-original-wordmark"></i></span>
-                            <span><i class="devicon-php-plain"></i></span>
+
 
                         </Fade>
 

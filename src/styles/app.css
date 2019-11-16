@@ -33,7 +33,7 @@ body {
   overflow-y: scroll;
 }
 
-.about h1 {
+.about h1, .about h5 {
   font-family: 'Amatic SC', cursive;
   font-size: 50px;
   text-align: center;
@@ -43,8 +43,18 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-  .about h1 {
+  .about h1, .about h5 {
     font-size: 35px;
+  }
+}
+
+.about h5 {
+  font-size: 35px;
+}
+
+@media screen and (max-width: 320px) {
+  .about h5 {
+    font-size: 25px;
   }
 }
 
@@ -96,7 +106,7 @@ body {
   margin-bottom: 5vh;
 }
 
-.home h1 {
+.home h1, .home .about h5, .about .home h5 {
   font-family: 'Amatic SC', cursive;
   font-size: 50px;
   text-align: center;
@@ -105,7 +115,7 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-  .home h1 {
+  .home h1, .home .about h5, .about .home h5 {
     font-size: 35px;
   }
 }

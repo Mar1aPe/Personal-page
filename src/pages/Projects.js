@@ -21,6 +21,9 @@ const Projects = () => {
                 <div className='about'>
                     <Animated animationIn='fadeIn' animationInDuration={3000}>
                         <h1>Projects</h1>
+                        <h5>These are put here just to show the layout of this section</h5>
+                        <h5>"Projects" - section is currently being rebuilded </h5>
+
                     </Animated>
                     <div className='contactSection'>
                         <Animated animationIn='zoomIn fadeIn' animationInDelay='1000' animationInDuration={3000} animateOnMount='false'>
