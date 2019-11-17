@@ -22,13 +22,22 @@ const Projects = () => {
                 <div className='about'>
                     <Animated animationIn='fadeIn' animationInDuration={3000}>
                         <h1>Projects</h1>
-                        <h5>These are put here just to show the layout of this section</h5>
-                        <h5>"Projects" - section is currently being rebuilded </h5>
+
 
                     </Animated>
                     <div className='contactSection'>
                         <Animated animationIn='zoomIn fadeIn' animationInDelay='1000' animationInDuration={3000} animateOnMount='false'>
                             <Fade bottom>
+
+                                <span className='contactDiv'>
+                                    <img src={bookstore} alt="bookstore site" />
+                                    <br />
+                                    LANDING PAGE
+                                    <br />
+                                    <a href="https://mar1ape.github.io/Business-Landing-Page/" target="_blank" >Go to website</a>
+                                    <br />
+                                    <a href="https://github.com/Mar1aPe/Business-Landing-Page" target="_blank">Check the code</a>
+                                </span>
 
                                 <span className='contactDiv'>
                                     <img src={memeIcon} alt="memesite" />
@@ -49,15 +58,7 @@ const Projects = () => {
                                     <a href="https://github.com/Mar1aPe/Tetris" target="_blank">Check the code</a>
 
                                 </span>
-                                <span className='contactDiv'>
-                                    <img src={bookstore} alt="bookstore site" />
-                                    <br />
-                                    LANDING PAGE
-                                    <br />
-                                    <a href="https://mar1ape.github.io/Business-Landing-Page/" target="_blank" >Go to website</a>
-                                    <br />
-                                    <a href="https://github.com/Mar1aPe/Business-Landing-Page" target="_blank">Check the code</a>
-                                </span>
+
 
 
 
