@@ -4,8 +4,9 @@ import Navigation from '../components/Navigation';
 import { Animated } from "react-animated-css";
 import Fade from 'react-reveal/Fade';
 import memeIcon from '../images/memegeneimg.JPG';
-import tetris from '../images/tetris.png';
-import bookstore from '../images/bookstore.JPG'
+import tetris from '../images/tetris.JPG';
+import bookstore from '../images/bookstore.JPG';
+import godzilla from '../images/godzilla.JPG';
 
 const Projects = () => {
 
@@ -32,17 +33,26 @@ const Projects = () => {
                                 <span className='contactDiv'>
                                     <img src={bookstore} alt="bookstore site" />
                                     <br />
-                                    LANDING PAGE
+                                    LANDING PAGE <br /> (HTML, Sass)
                                     <br />
                                     <a href="https://mar1ape.github.io/Business-Landing-Page/" target="_blank" >Go to website</a>
                                     <br />
                                     <a href="https://github.com/Mar1aPe/Business-Landing-Page" target="_blank">Check the code</a>
                                 </span>
+                                <span className='contactDiv'>
+                                    <img src={godzilla} alt="godzilla" />
+                                    <br />
+                                    MOVIE FINDER<br /> (HTML, Sass, JavaScript, Webpack)
+                                    <br />
+                                    <a href="https://mar1ape.github.io/Movie-finder/" target="_blank" >Go to website</a>
+                                    <br />
+                                    <a href="https://github.com/Mar1aPe/Movie-finder" target="_blank">Check the code</a>
+                                </span>
 
                                 <span className='contactDiv'>
                                     <img src={memeIcon} alt="memesite" />
                                     <br />
-                                    MEME GENERATOR
+                                    MEME GENERATOR<br /> (Sass, React.js)
                                     <br />
                                     <a href="https://mar1ape.github.io/Meme-Generator/" target="_blank" >Go to website</a>
                                     <br />
@@ -51,7 +61,7 @@ const Projects = () => {
                                 <span className='contactDiv'>
                                     <img src={tetris} alt="tetris" />
                                     <br />
-                                    TETRIS
+                                    TETRIS<br /> (HTML, JavaScript)
                                     <br />
                                     <a href="https://mar1ape.github.io/Tetris/" target="_blank">Go to website</a>
                                     <br />
