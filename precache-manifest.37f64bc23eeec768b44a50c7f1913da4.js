@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70dd514188e00a37e69555dff9c4ae20",
+    "revision": "eda74290f9eebcaf130093a0e04d19b3",
     "url": "/Personal-page/index.html"
   },
   {
-    "revision": "25d28c8fe5e5a1632288",
+    "revision": "9d4b81fb988747a43db9",
     "url": "/Personal-page/static/css/main.21876c33.chunk.css"
   },
   {
-    "revision": "8feebde8be98764addab",
-    "url": "/Personal-page/static/js/2.7de5126f.chunk.js"
+    "revision": "83bbfc28d4a0fe0f314b",
+    "url": "/Personal-page/static/js/2.d48cb83a.chunk.js"
   },
   {
-    "revision": "25d28c8fe5e5a1632288",
-    "url": "/Personal-page/static/js/main.17300d71.chunk.js"
+    "revision": "9d4b81fb988747a43db9",
+    "url": "/Personal-page/static/js/main.a1e81b83.chunk.js"
   },
   {
     "revision": "2649062ffa082ed2c0c0",
@@ -24,6 +24,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-page/static/media/bookstore.15460a01.JPG"
   },
   {
+    "revision": "97895cdec26a204a62b5d3c0d3cf8868",
+    "url": "/Personal-page/static/media/godzilla.97895cde.JPG"
+  },
+  {
     "revision": "52b95e99c26f6d8a6cab4894ec9a6093",
     "url": "/Personal-page/static/media/memegeneimg.52b95e99.JPG"
   },
@@ -32,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-page/static/media/sky.27ce0367.jpg"
   },
   {
-    "revision": "34f4e010cb8589b420d390c9181adbc6",
-    "url": "/Personal-page/static/media/tetris.34f4e010.png"
+    "revision": "39a32812c55e90e5111b4bd1517277d1",
+    "url": "/Personal-page/static/media/tetris.39a32812.JPG"
   }
 ]);
